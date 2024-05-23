@@ -1,0 +1,82 @@
+.mainer{
+    width: 100%;
+    height: fit-content;
+    background-color: #F7F7F7; 
+    margin-bottom:30px ; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 3vw;
+    padding: 1vw;
+}
+.headings{
+    padding: 5px;
+}
+.headings span{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    margin-right: 10px;
+    opacity: 0.3;
+}
+.headings h2{
+    font-family: "Inter", sans-serif;   
+    font-weight: 600;
+    color: grey;
+}
+.list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.blogdiv{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 6px rgba( 0, 0, 0, 0.5 );
+    padding-bottom: 20px;
+}
+.blogdiv img{
+    width: 120px;
+    height: 120px;
+}
+.blogdiv .title h1{
+    font-family: "Inter" sans-serif;
+    color: grey;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title button{
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  font-family: "Inter" sans-serif;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+  font-weight: 900;
+}
+.title button:hover{
+  color: #000;
+  background-color: #fff;
+  transform: rotate(5deg);
+  border: 1px solid #000;
+}
+.title button a{
+  text-decoration: none;
+  color: #fff;
+}
+.title button a:hover{
+  color: #000;
+}

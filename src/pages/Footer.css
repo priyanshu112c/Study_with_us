@@ -1,0 +1,58 @@
+.conatin{
+    width: 100%;
+    display: flex;
+    padding: 2vw;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.logo-intro{
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.logo-intro img{
+    width: 65px;
+    margin-right: 20px;
+}
+.para p{
+    font-family: "Inter" sans-serif;
+    font-weight: 700;
+    color: grey;
+    width: 50%;
+}
+.links{
+    flex-basis: 20%;
+}
+.legal{
+    flex-basis: 20%;
+}
+.links h3,.legal h3{
+    font-family: "Inter" sans-serif;
+    font-weight: 700;
+    color: grey;
+    text-align: start;
+}
+.links li,.legal li{
+    list-style: none;
+    text-align: start;
+    font-size: 1.2vw;
+    font-family: "Inter" sans-serif;
+    font-weight: 600;
+    color: gray;
+    margin-left: 5px;
+}
+@media (max-width:995px){
+    .links li, .legal li{
+        font-size: 2.54vw;
+    }
+    .para{
+        width: 70%;
+        font-size: 2.6vw;
+    }
+    .links,.legal{
+        width: 40%;
+    }
+    .links h3,.legal h3{
+        font-size:4vw ;
+    }
+}

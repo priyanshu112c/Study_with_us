@@ -1,0 +1,39 @@
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeouterdiv{
+    height: 80vh;
+}
+.row .text-center h2{
+    font-size: 4.5vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+.homeimg img{
+    width: 90%;
+    height: 500px;
+}
+.us{
+    color: rgb(57, 0, 180);
+}
+@media (max-width:995px){
+    .homeimg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .homeimg  img{
+        width: 80%;
+        height: 400px;
+    }
+    .row .text-center h2{
+        font-size: 10vw;
+    }
+    .homeouterdiv{
+        margin-bottom: 50px;
+    }
+}
